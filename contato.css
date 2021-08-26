@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+header{
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    background-color: #00796b;
+}
+
+.container{
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+
+header .container .menu a{
+    color: #ffff;
+    padding: 0 20px 0 0;
+    width: 30px;  
+    text-decoration: none;
+}
+
+footer.final{
+    width: 100%;
+    max-width: 100%;
+    height: 60px;
+    margin: 0 auto;
+    background-color: #C4C4C4;
+    align-self:flex-end;
+}
+
+footer article p{
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+
+/*página contato*/
+
+section.contato h2{
+    color:#00796b ;
+    font-size: 35px;
+    font-weight:900;
+    font-family:'Roboto Condensed', sans-serif; 
+    margin: 50px;
+   
+}
+
+section.contato .container {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    /*background-color: black;*/
+}
+
+
+.container .formulario .forms {
+    display: flex;
+    flex-direction: column;
+    font-family:'Roboto', sans-serif; 
+
+    /*background-color: blue;*/
+
+    color: #9B9B9B;
+
+
+    width: 600px;
+    height: 500px;
+    margin: 10 auto;
+    padding:20px;
+}
+
+
+section.contato form input, 
+section.contato form textarea {
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+    resize: none; 
+}
+
+
+section.contato .forms button{
+    padding: 10px 20px;
+    color: #9B9B9B;
+    background-color: #00796b;
+    border: none;
+    font-size: 16px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+
+.container .info-contato{
+
+ /*background-color: pink;*/
+    width: 50%;
+    height: 30%;
+    padding: 5px;
+    margin: 20px;
+    justify-content:center;
+
+}
+
+
+
+.info-contato .redes-sociais{
+
+    /*background-color:yellowgreen;*/
+    font-family:'Roboto', sans-serif;
+    color:#9B9B9B;
+    font-size: 16px;
+    padding: 15px;
+    margin:50px;
+}
+
+.info-contato .redes-sociais .mapa{
+
+    /*background-color:red;*/
+    color:#9B9B9B;
+}
+.info-contato .redes-sociais iframe{
+
+    width: 512px;
+    height: 384px;
+    align-items: center;
+    border-radius: 8px;
+    border: none;
+    line-height: 10px;
+}
+
+
+.info-contato .redes-sociais a {
+    color:#00796b ;
+    text-decoration: none;
+    font-size: 16px;
+}
+

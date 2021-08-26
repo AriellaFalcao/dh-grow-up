@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+header{
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    background-color: #00796b;
+}
+
+.container{
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+
+header .container .menu a{
+    color: #ffff;
+    padding: 0 20px 0 0;
+    width: 30px;  
+    text-decoration: none;
+}
+
+
+footer.final{
+    width: 100%;
+    max-width: 100%;
+    height: 60px;
+    margin: 0 auto;
+    background-color: #C4C4C4;
+    align-self:flex-end;
+}
+
+footer article p{
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+
+/*Página Servicos*/
+
+section.detalhes  h2{
+    color:#00796b ;
+    font-size: 35px;
+    font-weight:900;
+    font-family:'Roboto Condensed', sans-serif; 
+    margin: 30px;
+}
+
+
+section.detalhes h3{
+    color:#00796b ;
+    font-size: 25px;
+    font-family:'Roboto Condensed', sans-serif;
+   
+
+}
+
+section.detalhes .container .um-um{
+    /*background-color: pink;*/
+    display: flex;
+    margin: 50px;
+}
+
+
+.container .um .texto-um{
+    flex-direction: column;
+    margin-left: 50px;
+    padding: 20px;
+
+}
+
+.container .um .texto-um p{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+    
+section.detalhes .container .dois-um{
+    /*background-color: purple;*/
+    display: flex;
+    margin: 50px;
+}
+
+.container .dois .texto-dois{
+    flex-direction: column;
+    margin-left: 50px;
+    padding: 20px;
+    
+
+}
+
+.container .dois .texto-dois p{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+
+
+section.detalhes .container .tres-um{
+    /*background-color: blue;*/
+    display: flex;
+    margin: 50px;
+
+}
+
+.container .tres .texto-tres{
+    flex-direction: column;
+    margin-left: 50px;
+    padding: 20px;
+
+}
+
+.container .tres .texto-tres p{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}

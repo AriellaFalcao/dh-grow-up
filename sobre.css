@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@700&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+header{
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.25);
+    background-color: #00796b;
+}
+
+.container{
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+
+header .container .menu a{
+    color: #ffff;
+    padding: 0 20px 0 0;
+    width: 30px;  
+    text-decoration: none;
+}
+
+footer.final{
+    width: 100%;
+    max-width: 100%;
+    height: 60px;
+    margin: 0 auto;
+    background-color: #C4C4C4;
+    align-self:flex-end;
+}
+
+footer article p{
+    color: #ffffff;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+/*pagina Sobre*/
+
+section.sobre h2{
+    color:#00796b ;
+    font-size: 35px;
+    font-weight:900;
+    font-family:'Roboto Condensed', sans-serif; 
+    margin: 30px;
+   
+}
+
+
+section.sobre .container{
+  /*background-color: yellow;*/
+  display: flex;
+}
+
+section.sobre .container .informacao{
+    /*background-color:pink;*/
+    display: block;
+
+    margin: 20px auto;
+    border: 15px;
+    padding-top: 50px;
+   
+}
+
+.informacao article.info-sobre{
+    text-align: center;
+   
+}
+
+
+
+section.sobre .container h3{
+    color:#00796b ;
+    font-size: 25px;
+    font-family:'Roboto Condensed', sans-serif; 
+}
+
+
+/*video*/
+
+section.video{
+    /*background-color: pink;*/
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 80px 0;
+    padding: 50px;
+}
+
+iframe{
+    width: 600px;
+    max-width: 100%;
+    height: 400px;
+    border: none;
+    border-radius: 4px;
+}
+
+
+section.codigo-empresa .container h3{
+    color:#00796b ;
+    font-size: 35px;
+    font-weight:900;
+    font-family:'Roboto Condensed', sans-serif; 
+    text-align: center;
+
+}
+
+
+section.codigo-empresa .container p{
+    margin: 50px;
+    padding: 20px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
